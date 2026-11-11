@@ -6,8 +6,12 @@ Results match drmeter: on a test set of 287 FLAC tracks from 14 albums, every tr
 
 ## Install
 
+Prebuilt binaries for Linux (x86_64, arm64; static), macOS (arm64, x86_64) and Windows (x86_64) are on the [releases page](https://github.com/koehntopp/drcalc/releases). On macOS, downloaded binaries are quarantined; clear that with `xattr -d com.apple.quarantine drcalc`.
+
+From source:
+
 ```sh
-cargo install --path .
+cargo install --git https://github.com/koehntopp/drcalc
 ```
 
 ## Usage
