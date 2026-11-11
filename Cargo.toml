@@ -1,0 +1,16 @@
+[package]
+name = "drcalc"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "Dynamic Range (DR) meter: reports and DYNAMIC_RANGE / ALBUM_DR tags"
+
+[dependencies]
+anyhow = "1.0.104"
+clap = { version = "4.6.7", features = ["derive"] }
+lofty = "0.25"
+rayon = "1.12.0"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+symphonia = { version = "0.5", features = ["aac", "alac", "mp3", "isomp4"] }
+walkdir = "2.5.0"
